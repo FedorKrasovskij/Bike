@@ -1,0 +1,291 @@
+.login form{
+background-image: linear-gradient( #206988 0%, #114165 59%, #0c3256 100%);
+color: #ffffff;
+width: 1215px;
+height: 36px;
+opacity: 0.8;
+margin:0 auto;
+border: 1px solid #00CED1;
+}
+a.button{
+border-radius: 3px;/*радиус скругления*/
+color: #60b5ed;/*цвет текста*/
+display: table;/*элемент таблицы*/
+font-family: tahoma;/*семейство шрифта*/
+font-size: 14px;/*размер текста*/
+line-height: 1.2;/*высота строки*/
+padding: 10px 15px;/*внутрение отступы*/
+text-decoration: none;/*убераем подчеркивание*/
+transition: all 0.3s;/*плавный эффект перехода*/
+cursor:pointer;
+}
+a.button:hover {
+background: #00CED1;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold;   
+}
+a.flag{
+border-radius: 3px;/*радиус скругления*/
+color: #60b5ed;/*цвет текста*/
+display: table;/*элемент таблицы*/
+font-family: tahoma;/*семейство шрифта*/
+font-size: 14px;/*размер текста*/
+line-height: 1.2;/*высота строки*/
+padding: 8px 3px;/*внутрение отступы*/
+text-decoration: none;/*убераем подчеркивание*/
+transition: all 0.3s;/*плавный эффект перехода*/
+cursor:pointer;	
+width: 130px;
+padding-left: 31px;
+}
+a.flag:hover {
+background: #00CED1;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold;   
+}
+nav ul {padding-left: 420px;/*двигать текст*/
+display: flex;
+list-style: none;
+align-items: center;
+margin: 0;
+}
+nav ul li {
+display: inline-block;
+padding: 0 1px;
+display: flex;
+}
+.line{
+border: 1px solid #00CED1;
+height: 28px;
+}
+.flag-img {
+width: 20px;
+height: 20px;
+margin: -3px;	
+}
+.text-png{
+padding: 3px;
+width: 93px;
+height: 11px;
+}
+.ola-entar{
+background: #00CED1 url(overlay.png) repeat-x;
+color: white;/*цвет текста*/
+display: table;/*элемент таблицы*/
+font-family: tahoma;/*семейство шрифта*/
+font-size: 14px;/*размер текста*/
+line-height: 1.2;/*высота строки*/
+padding: 9px 12px;/*внутрение отступы*/
+text-decoration: none;/*убераем подчеркивание*/
+transition: all 0.3s;/*плавный эффект перехода*/
+cursor:pointer;	
+width: 165px;
+margin-left: 38px;
+}
+.block{
+text-align: center;
+margin:0 auto;
+
+z-index: 1;
+position: absolute;
+top: 210px;
+right: 515px;
+width: 560px;
+height: 680px;
+background: rgba(0, 0, 0, 0.5);
+}
+.fon{
+text-align:center;
+border: 1px solid #00CED1;
+margin:0 auto;
+width: 1215px;
+height: 1028px;
+
+}
+.text-Cadastre{
+color: #ffffff;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 400;
+line-height: 16px;
+}
+.facebook{
+width: 276px;
+height: 35px;
+margin:0 auto;
+margin-top:34px;
+margin-bottom: 34px;
+}
+.title {
+/* Чтобы спрятать часть линий, которые 
+** будут вылазить за пределы блока */
+overflow: hidden;
+/* Выравнивание заголовка по центру, 
+** можно использовать left, right */
+text-align: center;
+/* Тут можно добавить другие стили для заголовка */
+font-size: 20px;
+color: #999999;
+margin-top:34px;
+margin-bottom: 34px;
+}
+.title:before,
+.title:after {
+/* Обязательно указываем пустое свойство content, 
+** иначе псевдоэлементы не появятся на сайте */
+content: "";
+/* Указываем что наши линии будут строчно-блочные и 
+** выравнивание по высоте - по центру */
+display: inline-block;
+vertical-align: middle;
+/* Задаем ширину 100% и выбираем высоту линии, 
+** в нашем примере она равна 4 пикселям */
+width: 19.5%;
+height: 3px;
+/* Добавляем цвет для линии */
+background-color: #ffffff;
+/* Добавляем пседоэлемантам возможность изменить 
+** позицию линии, для создания отступов от текста */
+position: relative;
+}
+.title:before {
+/* Смещаем левую линию на 100% влево, чтобы линия 
+** встала рядом с текстом слева */
+margin-left: -100%;
+/* Указываем в пикселях отступ линии от текста заголовка */
+left: -14px;
+box-shadow: inset 0px 1px 0px 1px black; 
+}
+.title:after {
+/* Смещаем правую линию на 100% вправо, чтобы 
+** линия встала рядом с текстом справа */
+margin-right: -100%;
+/* Указываем в пикселях отступ линии от текста заголовка */
+right: -14px;
+box-shadow: inset 0px 1px 0px 1px black; 
+}
+.first-name {
+width: 272px;
+height: 35px;
+background-color: #1b5288;
+background-image: linear-gradient(to top, #111111 0%, #0e0d0d 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.first-name:hover {
+ background: #1b5288 ;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold; 
+box-shadow: 0 0  10px 4px #1b5288;
+}
+.last-name{
+margin-top:19px;
+margin-bottom: 19px;
+width: 272px;
+height: 35px;
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #111111 0%, #0e0d0d 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.last-name:hover {
+ background: #1b5288 ;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold; 
+box-shadow: 0 0  10px 4px #1b5288;
+}
+.email-address{
+margin-bottom: 19px;
+width: 272px;
+height: 35px;
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #111111 0%, #0e0d0d 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.email-address:hover {
+ background: #1b5288 ;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold; 
+box-shadow: 0 0  10px 4px #1b5288;
+}
+.choose-password{
+margin-bottom: 19px;
+width: 272px;
+height: 35px;
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #111111 0%, #0e0d0d 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.choose-password:hover {
+ background: #1b5288 ;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold; 
+box-shadow: 0 0  10px 4px #1b5288;
+}
+.password-confirm{
+margin-bottom: 19px;
+width: 272px;
+height: 35px;
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #111111 0%, #0e0d0d 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.password-confirm:hover {
+ background: #1b5288 ;/*другой цвет фона*/
+color: #ffffff;
+font-weight: bold; 
+box-shadow: 0 0  10px 4px #1b5288;
+}
+.checkbox{
+width: 214px;
+height: 14px;
+color: #cccccc;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+}
+.account{
+margin-top:19px;
+margin-bottom: 35px;
+width: 151px;
+height: 37px;
+box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+background-image: linear-gradient(to top, #00BFFF 0%, #00BFFF 100%);
+color: #ffffff;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-radius: 5px;
+}
+.lower-text{
+width: 550px;
+height: 24px;
+color: #cccccc;
+font-family: Tahoma;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+}
+
+
+
